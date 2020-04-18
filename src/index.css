@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: beige !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.card_movie_rating {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 50px;
+}
+.modal-inputs {
+  display: flex;
+  flex-direction: column;
+}
+.search {
+  display: flex;
+  padding: 0px 40px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  background-color: beige;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-img-top {
+  height: 200px;
+}
+.card {
+  margin: 7px;
+  margin-top: 60px;
+}
+.inputs {
+  width: 100%;
+}
+.modal-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.form-control {
+  width: 70% !important;
+}
+.btn-show {
+  background-color: lightgreen;
+}
+#closebtn {
+  background-color: #6c757d;
+  width: fit-content;
+}
+#addbtn {
+  background-color: #007bff;
+  width: fit-content;
+}
+.popcorn {
+  height: 200px;
+}
